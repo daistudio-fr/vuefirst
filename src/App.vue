@@ -1,19 +1,15 @@
 <template>
   <div id="app">
-    <img src="./assets/DS_icon.svg" style="width: 100px">
-    <HelloWorld/>
     <GridContainer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
 import GridContainer from './components/GridContainer'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     GridContainer
   }
 }
